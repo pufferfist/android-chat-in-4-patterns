@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
+        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -35,6 +36,7 @@
         <activity android:name=".mvp2.Mvp2TalkActivity" />
         <activity android:name=".mvvm2.Mvvm2TalkActivity" />
         <activity android:name=".mvvm3.Mvvm3TalkActivity" />
+        <activity android:name=".hw1.Mvp6TalkActivity" />
 
     </application>
 
